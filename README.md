@@ -19,6 +19,7 @@ weeks ago, the competitor mentioned twice.
 | `retain` | `memory.retain_interaction` | Stores every call, email and meeting as it happens, with date and account context |
 | `recall` | `memory.recall` | Before the chat agent answers, fetches memories relevant to the question |
 | `reflect` | `memory.reflect` | Powers "Brief me": reasons over the whole bank to produce a briefing |
+Cross-deal learning: reflect synthesizes lessons from won and lost deals (Brightpath Health, Nova Retail) and applies them to the open deal (Acme Logistics)
 
 A sidebar toggle turns memory off so you can compare the same question answered
 with and without Hindsight.
