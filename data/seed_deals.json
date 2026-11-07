@@ -1,9 +1,0 @@
-{
-  "Acme Logistics": [
-    {"date": "2026-10-06", "type": "Discovery call", "note": "Spoke with Rahul Mehta (VP Operations). Acme runs 40 warehouses across India and loses roughly 6 hours per week per site on manual dispatch scheduling. Budget owner is the CFO, Priya Nair. Evaluating us against Zoho Creator and a custom in-house build."},
-    {"date": "2026-10-14", "type": "Pricing call", "note": "Priya Nair pushed back on annual upfront pricing of Rs 38 lakh. She wants quarterly billing and a 90-day exit clause. Rahul is supportive but said procurement moves slowly. Zoho was mentioned again as cheaper."},
-    {"date": "2026-10-21", "type": "Email", "note": "Rahul asked for our SOC 2 report and data residency details before sharing with their security lead, Anil Verma. I promised to send both by Friday."},
-    {"date": "2026-10-28", "type": "Meeting", "note": "Demo to 6 stakeholders. Anil Verma asked about the SOC 2 report because it had not arrived. Rahul was embarrassed. Priya did not attend. Competitor Zoho came up a third time. Dispatch automation demo landed well."},
-    {"date": "2026-11-03", "type": "Call", "note": "Rahul says the deal is still alive but Priya is leaning toward a 6-month pilot instead of the annual contract. Decision meeting is on 12 November."}
-  ]
-}
