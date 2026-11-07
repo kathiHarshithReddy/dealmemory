@@ -69,7 +69,7 @@ with col2:
             "Across all closed deals, won and lost, what approaches, objection "
             "handling and mistakes made the difference? Give specific lessons "
             "with account names and dates, then say which lessons apply to "
-            "Acme Logistics right now."
+            f"{account} right now."
         )
         with st.spinner("Learning from past deals..."):
             if use_memory:
