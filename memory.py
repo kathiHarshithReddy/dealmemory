@@ -23,10 +23,16 @@ def retain_interaction(account: str, kind: str, note: str, date: str) -> None:
     )
 
 
-def recall(query: str) -> list[str]:
-    """Return the text of memories relevant to the query."""
+def recall(query: str, limit: int = 10) -> list[str]:
+    """Return de-duplicated memory texts relevant to the query."""
     result = _client().recall(bank_id=BANK_ID, query=query)
-    return [r.text for r in result.results]
+    best = {}
+    for r in result.results:
+        text = r.text.strip()
+        key = text.split(" | ")[0].strip().lower().rstrip(".")
+        if key not in best or len(text) > len(best[key]):
+            best[key] = text
+    return list(best.values())[:limit]
 
 
 def reflect(query: str) -> str:
